@@ -13,6 +13,6 @@ class Chim < Formula
 
 
   test do
-    system "#{bin}/chim"
+    system "#{bin}/chim", "--help"
   end
 end
